@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+#logo {
+    background-color: #ddd;
+    width: 190px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    border: 1px solid #ccc;
+}
+
+.content h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.content h1 span {
+    color: #007bff; /* Màu xanh cho chữ "Shared Hosting" */
+}
+
+.content p {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.buttons button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+

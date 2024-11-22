@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+}
+.nd {
+    width: 90%;
+    margin: 20px;
+    float:left;
+
+}
+.pic {
+    float: right;
+    width: 20%; /* Khoảng 20% độ rộng */
+    margin:  10px;    
+    border: 1px solid #000; /* Đường viền */
+    text-align: center; /* Canh giữa văn bản */
+
+}
+.pic img {
+    width: 100%; /* Hình ảnh tự động co giãn theo khung */
+    display: block;
+}
+.pic p {
+    font-style: italic; 
+    font-size: 12px; 
+    margin: 5px 0;
+}

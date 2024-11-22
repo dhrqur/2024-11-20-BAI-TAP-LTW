@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.menu {
+    background-color: cyan; /* Nền menu */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex; /* Hiển thị ngang */
+}
+
+.menu ul li {
+    margin: 0 10px; /* Khoảng cách giữa các mục */
+}
+
+.menu ul li a {
+    text-decoration: none; 
+    color: blue; 
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    background-color: darkblue; 
+    color: white;
+}
